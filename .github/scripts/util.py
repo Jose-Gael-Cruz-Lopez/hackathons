@@ -101,6 +101,20 @@ def format_link(url):
     return f'<a href="{url}"><img src="{button_url}" alt="Register"></a>'
 
 
+def format_website_link(url):
+    """Format a plain website link as a gray button (for upcoming events)."""
+    button_url = "https://img.shields.io/badge/Website-gray?style=for-the-badge"
+    return f'<a href="{url}"><img src="{button_url}" alt="Website"></a>'
+
+
+def resolve_state(listing):
+    """Return one of 'open', 'opens_soon', 'closed' for a listing."""
+    state = listing.get("state")
+    if state in ("open", "opens_soon", "closed"):
+        return state
+    return "open" if listing.get("active", True) else "closed"
+
+
 def format_date(timestamp):
     """Format Unix timestamp as readable date."""
     dt = datetime.fromtimestamp(timestamp, tz=PST)

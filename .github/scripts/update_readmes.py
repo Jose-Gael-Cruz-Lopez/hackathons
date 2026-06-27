@@ -78,15 +78,23 @@ def create_hackathons_table(listings):
     rows.append(separator)
 
     for listing in listings:
-        active = listing.get("active", True)
-        status = util.get_status_badge(active)
+        state = util.resolve_state(listing)
         host = util.sanitize_table_cell(listing["company_name"])
         title = util.sanitize_table_cell(listing["title"])
         fmt = util.sanitize_table_cell(listing.get("format", ""))
         location = util.format_locations(listing.get("locations", []))
         prize = util.sanitize_table_cell(listing.get("prize", "—"))
-        link = util.format_link(listing["url"]) if active else ":lock:"
         date = util.format_date(listing["date_posted"])
+
+        if state == "opens_soon":
+            status = "⏳ **[OPENS SOON]**"
+            link = util.format_website_link(listing["url"])
+        elif state == "closed":
+            status = "🔒 **[CLOSED]**"
+            link = ":lock:"
+        else:
+            status = "✅ **[OPEN]**"
+            link = util.format_link(listing["url"])
 
         row = f"| {status} | {host} | {title} | {fmt} | {location} | {prize} | {link} | {date} |"
         rows.append(row)

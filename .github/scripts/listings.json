@@ -1,6 +1,6 @@
 [
   {
-    "id": "cc84d02a-7651-4745-8679-e4863c63a718",
+    "id": "6b4a84a5-5a7e-43a8-a771-d086dd1c768c",
     "company_name": "MIT",
     "title": "HackMIT 2026 (Weekend Hackathon; Open to Undergrads Worldwide)",
     "url": "https://hackmit.org/",
@@ -9,10 +9,215 @@
     ],
     "format": "In-Person",
     "prize": "$20K+ in prizes",
+    "state": "open",
     "active": true,
     "is_visible": true,
-    "date_posted": 1782592140,
-    "date_updated": 1782592140,
+    "date_posted": 1782586800,
+    "date_updated": 1782586800,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "68e86a1f-8576-42bc-b77e-97e8a4f118d5",
+    "company_name": "Major League Hacking",
+    "title": "Global Hack Week: Season Launch \u2014 Jul 10\u201316, 2026",
+    "url": "https://ghw.mlh.io/",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "Swag + prizes",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782583200,
+    "date_updated": 1782583200,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "f0eff203-6fb9-4a66-89c9-f223652ec281",
+    "company_name": "Major League Hacking",
+    "title": "Midnight Virtual Hackathon \u2014 Jul 17\u201319, 2026",
+    "url": "https://mlh.io/seasons/2026/events",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "Swag + prizes",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782579600,
+    "date_updated": 1782579600,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "06802216-3d7d-46e7-b187-c821e9a45e89",
+    "company_name": "Hack the 6ix",
+    "title": "Hack the 6ix 2026 \u2014 Jul 17\u201319, 2026",
+    "url": "https://hackthe6ix.com/",
+    "locations": [
+      "Toronto, ON, Canada"
+    ],
+    "format": "In-Person",
+    "prize": "TBA",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782576000,
+    "date_updated": 1782576000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "68850913-cbd3-4b7b-8604-88a22b2054ad",
+    "company_name": "Hexafalls",
+    "title": "Hexafalls 2 \u2014 Jul 24\u201326, 2026",
+    "url": "https://mlh.io/seasons/2026/events",
+    "locations": [
+      "Kolkata, India"
+    ],
+    "format": "In-Person",
+    "prize": "TBA",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782572400,
+    "date_updated": 1782572400,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "41c78809-7972-4555-beba-2682797d128c",
+    "company_name": "Major League Hacking",
+    "title": "Global Hack Week: Agents \u2014 Aug 7\u201313, 2026",
+    "url": "https://ghw.mlh.io/",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "Swag + prizes",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782568800,
+    "date_updated": 1782568800,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "027b9ed9-5e46-4c18-9093-f938763eff27",
+    "company_name": "Major League Hacking",
+    "title": "Global Hack Week: Data \u2014 Sep 11\u201317, 2026",
+    "url": "https://ghw.mlh.io/",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "Swag + prizes",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782565200,
+    "date_updated": 1782565200,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "0fca549c-5489-47e6-aae8-6359c75108d3",
+    "company_name": "University of Michigan",
+    "title": "MHacks 2026 (Student Hackathon; Applications Coming Soon)",
+    "url": "https://mhacks.org/",
+    "locations": [
+      "Ann Arbor, MI"
+    ],
+    "format": "In-Person",
+    "prize": "$40K+ in prizes",
+    "state": "opens_soon",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782561600,
+    "date_updated": 1782561600,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "7d3ee2ae-18aa-46a7-a6cc-1da84c095f61",
+    "company_name": "Freetail Hackers",
+    "title": "HackTX 26 (Student Hackathon; Applications Coming Soon)",
+    "url": "https://hacktx.com/",
+    "locations": [
+      "Austin, TX"
+    ],
+    "format": "In-Person",
+    "prize": "TBA",
+    "state": "opens_soon",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782558000,
+    "date_updated": 1782558000,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "d3e32f4d-514e-4147-81c9-ea3530d6037e",
+    "company_name": "Hackathons @ Berkeley",
+    "title": "Cal Hacks (Collegiate Hackathon; 2026 Cycle Not Yet Posted)",
+    "url": "https://calhacks.io/",
+    "locations": [
+      "Berkeley / San Francisco, CA"
+    ],
+    "format": "In-Person",
+    "prize": "TBA",
+    "state": "opens_soon",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782554400,
+    "date_updated": 1782554400,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "0c74ed31-94a2-4fba-ab6e-197d41b20423",
+    "company_name": "UCLA",
+    "title": "LA Hacks (Student Hackathon; Next Event Mid-April 2027)",
+    "url": "https://lahacks.com/",
+    "locations": [
+      "Los Angeles, CA"
+    ],
+    "format": "In-Person",
+    "prize": "$60K in prizes",
+    "state": "opens_soon",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782550800,
+    "date_updated": 1782550800,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "15665a2e-e26c-4a58-bd4c-15f01b40a81e",
+    "company_name": "University of Pennsylvania",
+    "title": "PennApps (Student Hackathon; Next Cycle Not Yet Posted)",
+    "url": "https://pennapps.com/",
+    "locations": [
+      "Philadelphia, PA"
+    ],
+    "format": "In-Person",
+    "prize": "TBA",
+    "state": "opens_soon",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782547200,
+    "date_updated": 1782547200,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "4f0776c5-6ccb-4f90-9e27-edb3c4503798",
+    "company_name": "University of Maryland",
+    "title": "Bitcamp (Student Hackathon; Next Cycle Not Yet Posted)",
+    "url": "https://bit.camp/",
+    "locations": [
+      "College Park, MD"
+    ],
+    "format": "In-Person",
+    "prize": "TBA",
+    "state": "opens_soon",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782543600,
+    "date_updated": 1782543600,
     "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
