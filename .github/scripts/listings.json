@@ -1,6 +1,6 @@
 [
   {
-    "id": "6b4a84a5-5a7e-43a8-a771-d086dd1c768c",
+    "id": "c0182709-2212-41a1-94ef-47689f05192f",
     "company_name": "MIT",
     "title": "HackMIT 2026 (Weekend Hackathon; Open to Undergrads Worldwide)",
     "url": "https://hackmit.org/",
@@ -17,7 +17,7 @@
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "68e86a1f-8576-42bc-b77e-97e8a4f118d5",
+    "id": "fbc4968c-1522-4304-a25e-8b86f7003adb",
     "company_name": "Major League Hacking",
     "title": "Global Hack Week: Season Launch \u2014 Jul 10\u201316, 2026",
     "url": "https://ghw.mlh.io/",
@@ -34,7 +34,7 @@
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "f0eff203-6fb9-4a66-89c9-f223652ec281",
+    "id": "06f72ca6-9ab3-4d22-aa00-bf5c8b362c33",
     "company_name": "Major League Hacking",
     "title": "Midnight Virtual Hackathon \u2014 Jul 17\u201319, 2026",
     "url": "https://mlh.io/seasons/2026/events",
@@ -51,7 +51,7 @@
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "06802216-3d7d-46e7-b187-c821e9a45e89",
+    "id": "c12023ad-aab3-44e5-beb7-d0956ef987c2",
     "company_name": "Hack the 6ix",
     "title": "Hack the 6ix 2026 \u2014 Jul 17\u201319, 2026",
     "url": "https://hackthe6ix.com/",
@@ -68,7 +68,7 @@
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "68850913-cbd3-4b7b-8604-88a22b2054ad",
+    "id": "6420c553-d798-4c74-bc81-5e592ecbc22e",
     "company_name": "Hexafalls",
     "title": "Hexafalls 2 \u2014 Jul 24\u201326, 2026",
     "url": "https://mlh.io/seasons/2026/events",
@@ -85,7 +85,7 @@
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "41c78809-7972-4555-beba-2682797d128c",
+    "id": "0dd13a0e-b5ce-4dd0-a35c-f435b52ea23f",
     "company_name": "Major League Hacking",
     "title": "Global Hack Week: Agents \u2014 Aug 7\u201313, 2026",
     "url": "https://ghw.mlh.io/",
@@ -102,7 +102,7 @@
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "027b9ed9-5e46-4c18-9093-f938763eff27",
+    "id": "421c6652-25a9-42c9-9ac9-5396f32396f5",
     "company_name": "Major League Hacking",
     "title": "Global Hack Week: Data \u2014 Sep 11\u201317, 2026",
     "url": "https://ghw.mlh.io/",
@@ -119,7 +119,160 @@
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "0fca549c-5489-47e6-aae8-6359c75108d3",
+    "id": "1b0b2e8f-8920-469e-978a-f34286dfcc56",
+    "company_name": "XPRIZE",
+    "title": "Build with Gemini XPRIZE \u2014 May 19 \u2013 Aug 17, 2026",
+    "url": "https://xprize.devpost.com/",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "$2,000,000",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782561600,
+    "date_updated": 1782561600,
+    "source": "devpost"
+  },
+  {
+    "id": "2d9875e7-9574-4fcd-9fcb-138ce6ee81fd",
+    "company_name": "Devpost",
+    "title": "H0: Hack the Zero Stack with Vercel v0 and AWS Databases \u2014 May 27 \u2013 Jun 29, 2026",
+    "url": "https://h01.devpost.com/",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "$80,000",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782558000,
+    "date_updated": 1782558000,
+    "source": "devpost"
+  },
+  {
+    "id": "f0109d92-c423-43b1-b6b5-fc93219a9bcb",
+    "company_name": "Qwen Cloud",
+    "title": "Global AI Hackathon Series with Qwen Cloud \u2014 May 26 \u2013 Jul 9, 2026",
+    "url": "https://qwencloud-hackathon.devpost.com/",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "$45,000",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782554400,
+    "date_updated": 1782554400,
+    "source": "devpost"
+  },
+  {
+    "id": "bcea64f3-77d3-4b65-b61e-5f1714b428ac",
+    "company_name": "UiPath",
+    "title": "UiPath AgentHack \u2014 May 15 \u2013 Jun 29, 2026",
+    "url": "https://uipath-agenthack.devpost.com/",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "$50,000",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782550800,
+    "date_updated": 1782550800,
+    "source": "devpost"
+  },
+  {
+    "id": "8a6a6656-8eff-40ea-9688-6bb50b18d290",
+    "company_name": "Slack",
+    "title": "Slack Agent Builder Challenge \u2014 May 20 \u2013 Jul 13, 2026",
+    "url": "https://slackhack.devpost.com/",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "$42,000",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782547200,
+    "date_updated": 1782547200,
+    "source": "devpost"
+  },
+  {
+    "id": "a30d17a5-32e2-4c5e-8c08-3ac5c42e48b9",
+    "company_name": "Reddit",
+    "title": "Reddit's Games with a Hook Hackathon \u2014 Jun 17 \u2013 Jul 15, 2026",
+    "url": "https://redditgameswithahook.devpost.com/",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "$40,000",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782543600,
+    "date_updated": 1782543600,
+    "source": "devpost"
+  },
+  {
+    "id": "a29c2b18-ef1b-432c-8a41-44b7ffab0af0",
+    "company_name": "Arm",
+    "title": "Arm Create: AI Optimization Challenge \u2014 Jun 4 \u2013 Aug 14, 2026",
+    "url": "https://arm-ai-optimization-challenge.devpost.com/",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "$8,000",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782540000,
+    "date_updated": 1782540000,
+    "source": "devpost"
+  },
+  {
+    "id": "4c7865aa-543e-4ac8-9f47-808da1bffddc",
+    "company_name": "Agentic AI Build Week",
+    "title": "Agentic AI Build Week 2026 \u2014 Jun 9 \u2013 Jul 11, 2026",
+    "url": "https://agentic-ai-build-week-2026.devpost.com/",
+    "locations": [
+      "Galaxy Innovation Park"
+    ],
+    "format": "In-Person",
+    "prize": "TBA",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782536400,
+    "date_updated": 1782536400,
+    "source": "devpost"
+  },
+  {
+    "id": "91a0436e-2b6e-4d1b-b659-6786b39e37ca",
+    "company_name": "Backblaze",
+    "title": "Backblaze Generative Media Hackathon: Build with Genblaze on B2 \u2014 Jun 22 \u2013 Aug 3, 2026",
+    "url": "https://backblaze-generative-media.devpost.com/",
+    "locations": [
+      "Online"
+    ],
+    "format": "Virtual",
+    "prize": "$10,000",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782532800,
+    "date_updated": 1782532800,
+    "source": "devpost"
+  },
+  {
+    "id": "651caba5-0669-4d1d-843b-e7892d0d4207",
     "company_name": "University of Michigan",
     "title": "MHacks 2026 (Student Hackathon; Applications Coming Soon)",
     "url": "https://mhacks.org/",
@@ -131,12 +284,12 @@
     "state": "opens_soon",
     "active": true,
     "is_visible": true,
-    "date_posted": 1782561600,
-    "date_updated": 1782561600,
+    "date_posted": 1782529200,
+    "date_updated": 1782529200,
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "7d3ee2ae-18aa-46a7-a6cc-1da84c095f61",
+    "id": "d0050dec-4255-4140-ac37-c133d4d77c2e",
     "company_name": "Freetail Hackers",
     "title": "HackTX 26 (Student Hackathon; Applications Coming Soon)",
     "url": "https://hacktx.com/",
@@ -148,12 +301,12 @@
     "state": "opens_soon",
     "active": true,
     "is_visible": true,
-    "date_posted": 1782558000,
-    "date_updated": 1782558000,
+    "date_posted": 1782525600,
+    "date_updated": 1782525600,
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "d3e32f4d-514e-4147-81c9-ea3530d6037e",
+    "id": "17a26842-4cff-47dc-83a7-311e3ec7397f",
     "company_name": "Hackathons @ Berkeley",
     "title": "Cal Hacks (Collegiate Hackathon; 2026 Cycle Not Yet Posted)",
     "url": "https://calhacks.io/",
@@ -165,12 +318,12 @@
     "state": "opens_soon",
     "active": true,
     "is_visible": true,
-    "date_posted": 1782554400,
-    "date_updated": 1782554400,
+    "date_posted": 1782522000,
+    "date_updated": 1782522000,
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "0c74ed31-94a2-4fba-ab6e-197d41b20423",
+    "id": "f24a6927-f19d-462f-b78f-add1f892010f",
     "company_name": "UCLA",
     "title": "LA Hacks (Student Hackathon; Next Event Mid-April 2027)",
     "url": "https://lahacks.com/",
@@ -182,12 +335,12 @@
     "state": "opens_soon",
     "active": true,
     "is_visible": true,
-    "date_posted": 1782550800,
-    "date_updated": 1782550800,
+    "date_posted": 1782518400,
+    "date_updated": 1782518400,
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "15665a2e-e26c-4a58-bd4c-15f01b40a81e",
+    "id": "d8eada21-a462-4b59-8fbf-6391e778cb42",
     "company_name": "University of Pennsylvania",
     "title": "PennApps (Student Hackathon; Next Cycle Not Yet Posted)",
     "url": "https://pennapps.com/",
@@ -199,12 +352,12 @@
     "state": "opens_soon",
     "active": true,
     "is_visible": true,
-    "date_posted": 1782547200,
-    "date_updated": 1782547200,
+    "date_posted": 1782514800,
+    "date_updated": 1782514800,
     "source": "Jose-Gael-Cruz-Lopez"
   },
   {
-    "id": "4f0776c5-6ccb-4f90-9e27-edb3c4503798",
+    "id": "24efdceb-cb4a-47e9-bda9-58328e7a743c",
     "company_name": "University of Maryland",
     "title": "Bitcamp (Student Hackathon; Next Cycle Not Yet Posted)",
     "url": "https://bit.camp/",
@@ -216,8 +369,8 @@
     "state": "opens_soon",
     "active": true,
     "is_visible": true,
-    "date_posted": 1782543600,
-    "date_updated": 1782543600,
+    "date_posted": 1782511200,
+    "date_updated": 1782511200,
     "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
