@@ -2,7 +2,7 @@
 
 # Hackathons
 
-### A curated, community-driven list of hackathons — updated daily.
+### A curated, community-driven list of hackathons, updated daily.
 
 [![Stars](https://img.shields.io/github/stars/Jose-Gael-Cruz-Lopez/hackathons?style=for-the-badge&color=FFD700&labelColor=000000&cacheSeconds=86400)](https://github.com/Jose-Gael-Cruz-Lopez/hackathons/stargazers)
 [![Last Updated](https://img.shields.io/github/last-commit/Jose-Gael-Cruz-Lopez/hackathons?style=for-the-badge&label=Last%20Updated&color=00C853&labelColor=000000)](https://github.com/Jose-Gael-Cruz-Lopez/hackathons/commits/main)
@@ -14,9 +14,9 @@
 > [!IMPORTANT]
 > **A single, always-current list of hackathons worth your weekend.** In-person, virtual, and hybrid — college, high-school, and open hackathons all in one place.
 
-Hi, I'm [Jose Cruz](https://www.linkedin.com/in/josegaelcruz). I built this because hackathon listings are scattered across a dozen sites, Discords, and group chats — and half of them are already over by the time you find them. This one starts from zero and stays current.
+Hi, I'm [Jose Cruz](https://www.linkedin.com/in/josegaelcruz). I built this because hackathon listings are scattered across a dozen sites, Discords, and group chats, and half of them are already over by the time you find them. This one starts from zero and stays current.
 
-Hackathons are the fastest way to build something real, meet your future team, and win prizes while you learn. Everything here is community-driven — if you find one, add it. Together we make the path clearer for everyone who comes after us.
+Hackathons are the fastest way to build something real, meet your future team, and win prizes while you learn. Everything here is community-driven. If you find one, add it. Together we make the path clearer for everyone who comes after us.
 
 ---
 
