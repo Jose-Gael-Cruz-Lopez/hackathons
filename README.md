@@ -77,7 +77,7 @@ Inspired by [Summer2026-Internships](https://github.com/vanshb03/Summer2026-Inte
 
 ## Contributors
 
-The people building and maintaining this list 💛
+The **Todd Mafia**, building and maintaining this list 💛
 
 <table>
   <tr>
