@@ -36,6 +36,7 @@ Hackathons are the fastest way to build something real, meet your future team, a
 ## Table of Contents
 
 - [Hackathons](#hackathons-1)
+- [Gallery](#gallery)
 - [Resources](#resources)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
@@ -54,6 +55,16 @@ Hackathons are the fastest way to build something real, meet your future team, a
 | ⏳ **[OPENS SOON]** | University of Pennsylvania | PennApps (Student Hackathon; Next Cycle Not Yet Posted) | In-Person | Philadelphia, PA | TBA | <a href="https://pennapps.com/"><img src="https://img.shields.io/badge/Website-gray?style=for-the-badge" alt="Website"></a> | Jun 27, 2026 |
 | ⏳ **[OPENS SOON]** | University of Maryland | Bitcamp (Student Hackathon; Next Cycle Not Yet Posted) | In-Person | College Park, MD | TBA | <a href="https://bit.camp/"><img src="https://img.shields.io/badge/Website-gray?style=for-the-badge" alt="Website"></a> | Jun 27, 2026 |
 <!-- HACKATHONS_TABLE_END -->
+
+---
+
+## Gallery
+
+Real photos from hackathons people found through this list. Went to one? [Share a photo](https://github.com/Jose-Gael-Cruz-Lopez/hackathons/issues/new?template=gallery_photo.yaml) and it'll show up here.
+
+<!-- GALLERY_START -->
+<p align="center"><i>No photos yet. Be the first — share a shot from a hackathon you found here!</i></p>
+<!-- GALLERY_END -->
 
 ---
 

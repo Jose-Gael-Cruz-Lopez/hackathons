@@ -50,6 +50,13 @@ def main():
         except Exception as e:
             print(f"Warning: could not regenerate banner: {e}")
 
+        # Rebuild the community photo gallery
+        try:
+            import generate_gallery
+            generate_gallery.main()
+        except Exception as e:
+            print(f"Warning: could not regenerate gallery: {e}")
+
         # Set commit message
         now = datetime.now(util.PST)
         timestamp = now.strftime("%Y-%m-%d %H:%M PST")

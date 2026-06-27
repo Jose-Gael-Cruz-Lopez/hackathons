@@ -1,0 +1,57 @@
+name: Share a Hackathon Photo
+description: Add a photo to the community gallery from a hackathon you found here
+title: "Photo: "
+labels: ["gallery"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Share a hackathon photo 📸
+
+        Found a hackathon through this list and went? Show it off! Attach a photo
+        and it'll be added to the gallery in the README. Only share photos you
+        took or have permission to share.
+
+  - type: input
+    id: hackathon
+    attributes:
+      label: Which hackathon?
+      placeholder: ex. HackMIT 2026
+    validations:
+      required: true
+
+  - type: textarea
+    id: photo
+    attributes:
+      label: Your photo
+      description: Drag and drop your image here (or paste it). JPG or PNG.
+      placeholder: Attach your photo here...
+    validations:
+      required: true
+
+  - type: input
+    id: caption
+    attributes:
+      label: Caption (Optional)
+      description: A short line about the moment
+      placeholder: ex. Demoing our project at 3am
+    validations:
+      required: false
+
+  - type: input
+    id: credit
+    attributes:
+      label: Credit name (Optional)
+      description: How should we credit you?
+      placeholder: ex. Jose Cruz
+    validations:
+      required: false
+
+  - type: input
+    id: credit_url
+    attributes:
+      label: Link to credit (Optional)
+      description: LinkedIn, GitHub, or personal site
+      placeholder: ex. https://www.linkedin.com/in/josegaelcruz
+    validations:
+      required: false
