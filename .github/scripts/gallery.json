@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "image": "assets/gallery/lahacks-ucla.jpg",
+    "hackathon": "LA Hacks",
+    "caption": "Hacking through the night at UCLA's Pauley Pavilion",
+    "credit": "Jose Cruz",
+    "credit_url": "https://www.linkedin.com/in/josegaelcruz"
+  }
+]
