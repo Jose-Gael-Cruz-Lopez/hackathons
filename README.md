@@ -41,6 +41,12 @@ Hackathons are the fastest way to build something real, meet your future team, a
 | Status | Host | Hackathon | Format | Location | Prize | Application | Date Posted |
 | ------ | ---- | --------- | ------ | -------- | ----- | ----------- | ----------- |
 | ✅ **[OPEN]** | MIT | HackMIT 2026 (Weekend Hackathon; Open to Undergrads Worldwide) | In-Person | Cambridge, MA | $20K+ in prizes | <a href="https://hackmit.org/"><img src="https://img.shields.io/badge/Register-blue?style=for-the-badge" alt="Register"></a> | Jun 27, 2026 |
+| ⏳ **[OPENS SOON]** | University of Michigan | MHacks 2026 (Student Hackathon; Applications Coming Soon) | In-Person | Ann Arbor, MI | $40K+ in prizes | <a href="https://mhacks.org/"><img src="https://img.shields.io/badge/Website-gray?style=for-the-badge" alt="Website"></a> | Jun 27, 2026 |
+| ⏳ **[OPENS SOON]** | Freetail Hackers | HackTX 26 (Student Hackathon; Applications Coming Soon) | In-Person | Austin, TX | TBA | <a href="https://hacktx.com/"><img src="https://img.shields.io/badge/Website-gray?style=for-the-badge" alt="Website"></a> | Jun 27, 2026 |
+| ⏳ **[OPENS SOON]** | Hackathons @ Berkeley | Cal Hacks (Collegiate Hackathon; 2026 Cycle Not Yet Posted) | In-Person | Berkeley / San Francisco, CA | TBA | <a href="https://calhacks.io/"><img src="https://img.shields.io/badge/Website-gray?style=for-the-badge" alt="Website"></a> | Jun 27, 2026 |
+| ⏳ **[OPENS SOON]** | UCLA | LA Hacks (Student Hackathon; Next Event Mid-April 2027) | In-Person | Los Angeles, CA | $60K in prizes | <a href="https://lahacks.com/"><img src="https://img.shields.io/badge/Website-gray?style=for-the-badge" alt="Website"></a> | Jun 27, 2026 |
+| ⏳ **[OPENS SOON]** | University of Pennsylvania | PennApps (Student Hackathon; Next Cycle Not Yet Posted) | In-Person | Philadelphia, PA | TBA | <a href="https://pennapps.com/"><img src="https://img.shields.io/badge/Website-gray?style=for-the-badge" alt="Website"></a> | Jun 27, 2026 |
+| ⏳ **[OPENS SOON]** | University of Maryland | Bitcamp (Student Hackathon; Next Cycle Not Yet Posted) | In-Person | College Park, MD | TBA | <a href="https://bit.camp/"><img src="https://img.shields.io/badge/Website-gray?style=for-the-badge" alt="Website"></a> | Jun 27, 2026 |
 <!-- HACKATHONS_TABLE_END -->
 
 ---
