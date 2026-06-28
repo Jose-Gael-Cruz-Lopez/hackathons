@@ -226,7 +226,10 @@ def parse_deadline(data):
     raw = (data.get("deadline_optional", "") or data.get("deadline", "")).strip()
     if not raw:
         return None
-    return util.parse_deadline_date(raw).isoformat()
+    try:
+        return util.parse_deadline_date(raw).isoformat()
+    except ValueError:
+        util.fail("Invalid deadline format. Please use YYYY-MM-DD or MM/DD/YYYY.")
 
 
 def extract_url_from_body(body):

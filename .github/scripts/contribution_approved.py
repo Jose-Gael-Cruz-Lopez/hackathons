@@ -51,7 +51,10 @@ def parse_deadline(data):
     raw = get_first(data, "deadline", "deadline_(optional)")
     if not raw:
         return None
-    return util.parse_deadline_date(raw).isoformat()
+    try:
+        return util.parse_deadline_date(raw).isoformat()
+    except ValueError:
+        util.fail("Invalid deadline format. Please use YYYY-MM-DD or MM/DD/YYYY.")
 
 
 def parse_issue_body(body, labels):
