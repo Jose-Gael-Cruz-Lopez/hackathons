@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hackathons — A Curated, Community-Driven List",
+  title: "HackHQ — Your Headquarters for Every Hackathon",
   description:
-    "A curated, community-driven board of hackathons worth your weekend. In-person, virtual, and hybrid events — college, high-school, and open hackathons, all in one place. Updated daily.",
+    "Your headquarters for every hackathon worth joining. In-person, virtual, and hybrid events — college, high-school, and open hackathons, all in one place. Updated daily.",
 };
 
 export default function RootLayout({

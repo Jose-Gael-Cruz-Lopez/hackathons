@@ -10,11 +10,11 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
           <div className="flex flex-col gap-3">
             <div className="flex items-center gap-2 text-sm font-medium text-emerald-700 dark:text-emerald-400">
-              <span className="text-lg">🚀</span>
-              <span>Hackathons</span>
+              <span className="text-lg">🏛️</span>
+              <span>HackHQ</span>
             </div>
             <h1 className="max-w-3xl text-balance text-3xl font-semibold leading-tight tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-4xl lg:text-5xl">
-              A curated, community-driven board of hackathons worth your weekend.
+              Your headquarters for every hackathon worth joining.
             </h1>
             <p className="max-w-2xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
               In-person, virtual, and hybrid hackathons — college, high-school,
@@ -23,7 +23,7 @@ export default function Home() {
             </p>
             <div className="mt-2 flex flex-wrap gap-3 text-sm">
               <a
-                href="https://github.com/Jose-Gael-Cruz-Lopez/hackathons"
+                href="https://github.com/Jose-Gael-Cruz-Lopez/hackhq"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 rounded-full bg-zinc-900 px-4 py-1.5 font-medium text-zinc-50 hover:bg-zinc-800 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200"
@@ -31,7 +31,7 @@ export default function Home() {
                 Star on GitHub →
               </a>
               <a
-                href="https://github.com/Jose-Gael-Cruz-Lopez/hackathons/issues/new/choose"
+                href="https://github.com/Jose-Gael-Cruz-Lopez/hackhq/issues/new/choose"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 rounded-full border border-zinc-300 px-4 py-1.5 font-medium text-zinc-700 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-900"

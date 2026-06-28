@@ -1,4 +1,4 @@
-You are working on the GitHub repository: https://github.com/Jose-Gael-Cruz-Lopez/hackathons
+You are working on the GitHub repository: https://github.com/Jose-Gael-Cruz-Lopez/hackhq
 
 ## PROJECT OVERVIEW
 
@@ -7,7 +7,7 @@ This is an automated GitHub repository that tracks hackathons (coding events / b
 ## REPOSITORY STRUCTURE
 
 ```
-hackathons/
+hackhq/
 ├── README.md                              # Main page with the Hackathons table
 ├── ARCHIVE.md                             # Closed/past hackathons
 ├── CONTRIBUTING.md                        # Contribution guide

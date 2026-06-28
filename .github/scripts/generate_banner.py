@@ -133,7 +133,7 @@ def svg(s):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Hackathon stats">
   <rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="10" fill="#0d1117" stroke="#21262d"/>
 
-  <text x="{pad}" y="34" font-family="{font}" font-size="14" font-weight="600" fill="#e6edf3">Hackathons</text>
+  <text x="{pad}" y="34" font-family="{font}" font-size="14" font-weight="600" fill="#e6edf3">HackHQ</text>
   <text x="{W-pad}" y="34" text-anchor="end" font-family="{font}" font-size="12.5" fill="#6e7681">as of {now}</text>
 
   {stat(pad, s["total"], "tracked", "#e6edf3")}

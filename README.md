@@ -1,13 +1,13 @@
 <div align="center">
 
-# Hackathons
+# HackHQ
 
-### A curated, community-driven list of hackathons, updated daily.
+### Your headquarters for every hackathon worth joining.
 
-[![Stars](https://img.shields.io/github/stars/Jose-Gael-Cruz-Lopez/hackathons?style=for-the-badge&color=FFD700&labelColor=000000&cacheSeconds=86400)](https://github.com/Jose-Gael-Cruz-Lopez/hackathons/stargazers)
-[![Last Updated](https://img.shields.io/github/last-commit/Jose-Gael-Cruz-Lopez/hackathons?style=for-the-badge&label=Last%20Updated&color=00C853&labelColor=000000)](https://github.com/Jose-Gael-Cruz-Lopez/hackathons/commits/main)
-[![Contributors](https://img.shields.io/github/contributors/Jose-Gael-Cruz-Lopez/hackathons?style=for-the-badge&color=0091EA&labelColor=000000)](https://github.com/Jose-Gael-Cruz-Lopez/hackathons/graphs/contributors)
-[![Open Issues](https://img.shields.io/github/issues/Jose-Gael-Cruz-Lopez/hackathons?style=for-the-badge&label=Submissions&color=FF6D00&labelColor=000000)](https://github.com/Jose-Gael-Cruz-Lopez/hackathons/issues)
+[![Stars](https://img.shields.io/github/stars/Jose-Gael-Cruz-Lopez/hackhq?style=for-the-badge&color=FFD700&labelColor=000000&cacheSeconds=86400)](https://github.com/Jose-Gael-Cruz-Lopez/hackhq/stargazers)
+[![Last Updated](https://img.shields.io/github/last-commit/Jose-Gael-Cruz-Lopez/hackhq?style=for-the-badge&label=Last%20Updated&color=00C853&labelColor=000000)](https://github.com/Jose-Gael-Cruz-Lopez/hackhq/commits/main)
+[![Contributors](https://img.shields.io/github/contributors/Jose-Gael-Cruz-Lopez/hackhq?style=for-the-badge&color=0091EA&labelColor=000000)](https://github.com/Jose-Gael-Cruz-Lopez/hackhq/graphs/contributors)
+[![Open Issues](https://img.shields.io/github/issues/Jose-Gael-Cruz-Lopez/hackhq?style=for-the-badge&label=Submissions&color=FF6D00&labelColor=000000)](https://github.com/Jose-Gael-Cruz-Lopez/hackhq/issues)
 
 </div>
 
@@ -27,7 +27,7 @@ Hackathons are the fastest way to build something real, meet your future team, a
 ---
 
 **To contribute** — it takes 60 seconds:
- 1. [Open an issue](https://github.com/Jose-Gael-Cruz-Lopez/hackathons/issues/new/choose) and paste the hackathon URL
+ 1. [Open an issue](https://github.com/Jose-Gael-Cruz-Lopez/hackhq/issues/new/choose) and paste the hackathon URL
  2. A maintainer approves it
  3. It gets automatically added to the list
 
@@ -136,7 +136,7 @@ The **Todd Mafia**, building and maintaining this list 💛
   </tr>
 </table>
 
-Want to join this wall? [Add a hackathon](https://github.com/Jose-Gael-Cruz-Lopez/hackathons/issues/new/choose) and you'll be credited as a contributor.
+Want to join this wall? [Add a hackathon](https://github.com/Jose-Gael-Cruz-Lopez/hackhq/issues/new/choose) and you'll be credited as a contributor.
 
 ---
 
@@ -156,7 +156,7 @@ Want to join this wall? [Add a hackathon](https://github.com/Jose-Gael-Cruz-Lope
  \____/_/   \_\_____|_____|_____|_| \_\|_|
 ```
 
-Real photos from hackathons people found through this list. Went to one? [Share a photo](https://github.com/Jose-Gael-Cruz-Lopez/hackathons/issues/new?template=gallery_photo.yaml) and it'll show up here.
+Real photos from hackathons people found through this list. Went to one? [Share a photo](https://github.com/Jose-Gael-Cruz-Lopez/hackhq/issues/new?template=gallery_photo.yaml) and it'll show up here.
 
 <!-- GALLERY_START -->
 <table>
