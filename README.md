@@ -47,6 +47,8 @@ Hackathons are the fastest way to build something real, meet your future team, a
 <!-- HACKATHONS_TABLE_START -->
 | Status | Host | Hackathon | Format | Location | Prize | Application | Date Posted |
 | ------ | ---- | --------- | ------ | -------- | ----- | ----------- | ----------- |
+| ✅ **[OPEN]** | Arcangel | Arcangel AI: $1,000,000 IP-A-THON (Early Access; Approval Required) | In-Person | TBA | $1,000,000 | <a href="https://luma.com/98z2mych"><img src="https://img.shields.io/badge/Register-blue?style=for-the-badge" alt="Register"></a> | Jun 29, 2026 |
+| ⏳ **[OPENS SOON]** | HackBeanpot | HackBeanpot (Student Hackathon; Next Cycle Not Yet Posted) | In-Person | Boston, MA | TBA | <a href="https://www.hackbeanpot.com/"><img src="https://img.shields.io/badge/Website-gray?style=for-the-badge" alt="Website"></a> | Jun 29, 2026 |
 | ✅ **[OPEN]** | Arya Health | Healthcare Hack NYC (Powered by Arya Health) | In-Person | New York, NY | TBA | <a href="https://luma.com/arya-health-hack"><img src="https://img.shields.io/badge/Register-blue?style=for-the-badge" alt="Register"></a> | Jun 28, 2026 |
 | ✅ **[OPEN]** | Cerebral Valley | The Future of Agentic AI in Healthcare (Abridge × Anthropic × Lightspeed) | In-Person | San Francisco, CA | TBA | <a href="https://cerebralvalley.ai/e/abridge-hackathon"><img src="https://img.shields.io/badge/Register-blue?style=for-the-badge" alt="Register"></a> | Jun 28, 2026 |
 | ✅ **[OPEN]** | MIT | HackMIT 2026 (Weekend Hackathon; Open to Undergrads Worldwide) | In-Person | Cambridge, MA | $20K+ in prizes | <a href="https://hackmit.org/"><img src="https://img.shields.io/badge/Register-blue?style=for-the-badge" alt="Register"></a> | Jun 27, 2026 |

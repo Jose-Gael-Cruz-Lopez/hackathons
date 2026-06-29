@@ -406,5 +406,39 @@
     "date_posted": 1782679191,
     "date_updated": 1782679191,
     "source": "hongchengw"
+  },
+  {
+    "id": "af1e3755-6040-4c3b-adac-b27c948a692f",
+    "company_name": "Arcangel",
+    "title": "Arcangel AI: $1,000,000 IP-A-THON (Early Access; Approval Required)",
+    "url": "https://luma.com/98z2mych",
+    "locations": [
+      "TBA"
+    ],
+    "format": "In-Person",
+    "prize": "$1,000,000",
+    "state": "open",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782749100,
+    "date_updated": 1782749100,
+    "source": "Jose-Gael-Cruz-Lopez"
+  },
+  {
+    "id": "e87fb32d-3bb3-44d2-9472-17845bcfe034",
+    "company_name": "HackBeanpot",
+    "title": "HackBeanpot (Student Hackathon; Next Cycle Not Yet Posted)",
+    "url": "https://www.hackbeanpot.com/",
+    "locations": [
+      "Boston, MA"
+    ],
+    "format": "In-Person",
+    "prize": "TBA",
+    "state": "opens_soon",
+    "active": true,
+    "is_visible": true,
+    "date_posted": 1782748800,
+    "date_updated": 1782748800,
+    "source": "Jose-Gael-Cruz-Lopez"
   }
 ]
