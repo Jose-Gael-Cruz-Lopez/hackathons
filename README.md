@@ -47,6 +47,8 @@ Hackathons are the fastest way to build something real, meet your future team, a
 <!-- HACKATHONS_TABLE_START -->
 | Status | Host | Hackathon | Format | Location | Prize | Deadline | Application | Date Posted |
 | ------ | ---- | --------- | ------ | -------- | ----- | -------- | ----------- | ----------- |
+| ✅ **[OPEN]** | Arya Health | Healthcare Hack NYC (Powered by Arya Health) | In-Person | New York, NY | TBA | — | <a href="https://luma.com/arya-health-hack"><img src="https://img.shields.io/badge/Register-blue?style=for-the-badge" alt="Register"></a> | Jun 28, 2026 |
+| ✅ **[OPEN]** | Cerebral Valley | The Future of Agentic AI in Healthcare (Abridge × Anthropic × Lightspeed) | In-Person | San Francisco, CA | TBA | — | <a href="https://cerebralvalley.ai/e/abridge-hackathon"><img src="https://img.shields.io/badge/Register-blue?style=for-the-badge" alt="Register"></a> | Jun 28, 2026 |
 | ✅ **[OPEN]** | MIT | HackMIT 2026 (Weekend Hackathon; Open to Undergrads Worldwide) | In-Person | Cambridge, MA | $20K+ in prizes | Sep 20, 2026 | <a href="https://hackmit.org/"><img src="https://img.shields.io/badge/Register-blue?style=for-the-badge" alt="Register"></a> | Jun 27, 2026 |
 | ✅ **[OPEN]** | Major League Hacking | Global Hack Week: Season Launch — Jul 10–16, 2026 | Virtual | Online | Swag + prizes | Jul 16, 2026 | <a href="https://ghw.mlh.io/"><img src="https://img.shields.io/badge/Register-blue?style=for-the-badge" alt="Register"></a> | Jun 27, 2026 |
 | ✅ **[OPEN]** | Major League Hacking | Midnight Virtual Hackathon — Jul 17–19, 2026 | Virtual | Online | Swag + prizes | Jul 19, 2026 | <a href="https://mlh.io/seasons/2026/events"><img src="https://img.shields.io/badge/Register-blue?style=for-the-badge" alt="Register"></a> | Jun 27, 2026 |
