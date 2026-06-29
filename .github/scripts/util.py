@@ -56,9 +56,6 @@ def check_schema(listings):
         deadline = listing.get("deadline")
         if deadline is not None:
             parse_deadline_date(deadline)
-        deadline = listing.get("deadline")
-        if deadline is not None:
-            parse_deadline_date(deadline)
     return True
 
 
