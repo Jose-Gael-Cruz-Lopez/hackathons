@@ -15,6 +15,7 @@ export type Opportunity = {
   deadlineRaw: string;
   deadlineISO: string | null;
   daysUntilDeadline: number | null;
+  featured: boolean;
 };
 
 export type GalleryPhoto = {
