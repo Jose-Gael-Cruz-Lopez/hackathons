@@ -23,6 +23,7 @@ export function Browser({
 }) {
   const [query, setQuery] = useState("");
   const [activeStatuses, setActiveStatuses] = useState<Set<Status>>(new Set());
+  const [featuredOnly, setFeaturedOnly] = useState(false);
 
   const toggleStatus = (s: Status) => {
     setActiveStatuses((prev) => {
@@ -37,6 +38,7 @@ export function Browser({
     const q = query.toLowerCase().trim();
     return opportunities
       .filter((o) => o.status !== "CLOSED")
+      .filter((o) => (featuredOnly ? o.featured : true))
       .filter((o) =>
         activeStatuses.size === 0 ? true : activeStatuses.has(o.status),
       )
@@ -50,6 +52,8 @@ export function Browser({
         );
       })
       .sort((a, b) => {
+        // Featured pinned to top
+        if (a.featured !== b.featured) return a.featured ? -1 : 1;
         // Closing soon first, then by upcoming deadline ascending, nulls last
         const statusOrder: Record<Status, number> = {
           CLOSING_SOON: 0,
@@ -66,7 +70,7 @@ export function Browser({
         if (b.daysUntilDeadline === null) return -1;
         return a.daysUntilDeadline - b.daysUntilDeadline;
       });
-  }, [opportunities, query, activeStatuses]);
+  }, [opportunities, query, activeStatuses, featuredOnly]);
 
   const counts = useMemo(() => {
     const c: Record<Status, number> = {
@@ -78,6 +82,11 @@ export function Browser({
     for (const o of opportunities) c[o.status]++;
     return c;
   }, [opportunities]);
+
+  const featuredCount = useMemo(
+    () => opportunities.filter((o) => o.featured && o.status !== "CLOSED").length,
+    [opportunities],
+  );
 
   return (
     <div className="flex flex-col gap-6">
@@ -93,6 +102,14 @@ export function Browser({
         />
 
         <div className="flex flex-wrap gap-2">
+          {featuredCount > 0 && (
+            <Pill
+              active={featuredOnly}
+              onClick={() => setFeaturedOnly((v) => !v)}
+            >
+              ⭐ Featured ({featuredCount})
+            </Pill>
+          )}
           {STATUSES.map((s) => (
             <Pill
               key={s}
@@ -103,11 +120,12 @@ export function Browser({
               {STATUS_LABELS[s]} ({counts[s]})
             </Pill>
           ))}
-          {(activeStatuses.size > 0 || query) && (
+          {(activeStatuses.size > 0 || query || featuredOnly) && (
             <button
               onClick={() => {
                 setActiveStatuses(new Set());
                 setQuery("");
+                setFeaturedOnly(false);
               }}
               className="rounded-full px-3 py-1.5 text-xs font-medium text-zinc-500 underline-offset-2 hover:text-zinc-900 hover:underline dark:text-zinc-400 dark:hover:text-zinc-100"
             >

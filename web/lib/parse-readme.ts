@@ -11,6 +11,12 @@ import {
 
 const README_PATH = path.join(process.cwd(), "..", "README.md");
 const REPO_ROOT = path.join(process.cwd(), "..");
+const LISTINGS_PATH = path.join(
+  REPO_ROOT,
+  ".github",
+  "scripts",
+  "listings.json",
+);
 const REPO_RAW_BASE =
   "https://raw.githubusercontent.com/Jose-Gael-Cruz-Lopez/hackhq/main/";
 
@@ -59,9 +65,32 @@ function earliestUpcomingDate(text: string, today: Date): Date | null {
 
 function cleanTitle(text: string): string {
   return text
+    .replace(/^\s*⭐\s*/, "")
     .replace(/\s*—\s*Deadline:.*$/i, "")
     .replace(/\s*—\s*"?Application Coming.*$/i, "")
     .trim();
+}
+
+/**
+ * Featured flags come from the structured source of truth (listings.json),
+ * not the README markup. This is the single place to swap to Supabase later:
+ * replace the file read with a query that returns featured URLs.
+ */
+function loadFeaturedUrls(): Set<string> {
+  try {
+    const raw = fs.readFileSync(LISTINGS_PATH, "utf-8");
+    const listings = JSON.parse(raw) as Array<{
+      url?: string;
+      featured?: boolean;
+    }>;
+    return new Set(
+      listings
+        .filter((l) => l.featured === true && typeof l.url === "string")
+        .map((l) => l.url as string),
+    );
+  } catch {
+    return new Set();
+  }
 }
 
 function inlineDeadline(text: string): string {
@@ -113,6 +142,7 @@ function parseTableRows(
   sectionKey: Section,
   body: string,
   today: Date,
+  featuredUrls: Set<string>,
 ): Opportunity[] {
   const lines = body
     .split("\n")
@@ -188,6 +218,7 @@ function parseTableRows(
       deadlineRaw,
       deadlineISO,
       daysUntilDeadline,
+      featured: url ? featuredUrls.has(url) : false,
     };
   });
 }
@@ -205,13 +236,15 @@ function parseOpportunities(markdown: string): Opportunity[] {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
+  const featuredUrls = loadFeaturedUrls();
+
   const all: Opportunity[] = [];
   let m: RegExpExecArray | null;
   const re = new RegExp(TABLE_RE.source, "g");
   while ((m = re.exec(markdown)) !== null) {
     const key = SECTION_ALIAS[m[1]];
     if (!key) continue;
-    all.push(...parseTableRows(key, m[2], today));
+    all.push(...parseTableRows(key, m[2], today, featuredUrls));
   }
   return all;
 }

@@ -33,16 +33,27 @@ export function OpportunityCard({ opp }: { opp: Opportunity }) {
       href={opp.url || "#"}
       target="_blank"
       rel="noopener noreferrer"
-      className="group flex flex-col gap-3 rounded-xl border border-zinc-200 bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-zinc-300 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-950 dark:hover:border-zinc-700"
+      className={`group flex flex-col gap-3 rounded-xl border bg-white p-4 transition-all hover:-translate-y-0.5 hover:shadow-md dark:bg-zinc-950 ${
+        opp.featured
+          ? "border-amber-400/60 ring-1 ring-amber-400/40 hover:border-amber-400 dark:border-amber-400/40 dark:hover:border-amber-400/70"
+          : "border-zinc-200 hover:border-zinc-300 dark:border-zinc-800 dark:hover:border-zinc-700"
+      }`}
     >
       <div className="flex items-center justify-between gap-2">
-        <span
-          className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium ${
-            STATUS_STYLES[opp.status]
-          }`}
-        >
-          {STATUS_TEXT[opp.status]}
-        </span>
+        <div className="flex items-center gap-1.5">
+          <span
+            className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium ${
+              STATUS_STYLES[opp.status]
+            }`}
+          >
+            {STATUS_TEXT[opp.status]}
+          </span>
+          {opp.featured && (
+            <span className="inline-flex items-center rounded-full bg-amber-500/15 px-2 py-0.5 text-xs font-medium text-amber-700 ring-1 ring-amber-500/30 dark:text-amber-300">
+              ⭐ Featured
+            </span>
+          )}
+        </div>
         <span className="text-xs text-zinc-500 dark:text-zinc-500">
           {opp.sectionLabel}
         </span>
